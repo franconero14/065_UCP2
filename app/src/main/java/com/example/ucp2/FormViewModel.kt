@@ -17,7 +17,7 @@ class FormViewModel : ViewModel() {
                 nama = listData[0],
                 nim = listData[1],
                 konsen = listData[2],
-                judul = listData[3]
+                judul = listData[3],
             )
         }
     }
