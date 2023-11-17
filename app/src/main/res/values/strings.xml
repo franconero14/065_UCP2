@@ -7,7 +7,7 @@
     <string name="buttonsubmit">Submit</string>
     <string name="buttonback">Back</string>
     <string name="buttonnext">Next</string>
-    <string name="DosenPembimbing1">HarisSetiawan</string>
-    <string name="DosenPembimbing2">CahyaDamarjati</string>
-    <string name="DosenPembimbing3">ApriliaKurniati</string>
+    <string name="harissetiawan">HarisSetiawan</string>
+    <string name="cahyadamarjati">CahyaDamarjati</string>
+    <string name="aprilkurniati">ApriliaKurniati</string>
 </resources>
