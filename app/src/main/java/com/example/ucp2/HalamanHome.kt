@@ -20,11 +20,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 
 @Composable
 fun HalamanHome(
@@ -53,22 +49,6 @@ fun HalamanHome(
                     painter = image,
                     contentDescription = null,
                     contentScale = ContentScale.Crop
-                )
-                Text(
-                    text = "Coffee Latte",
-                    color = Color.DarkGray,
-                    fontFamily = FontFamily.Cursive,
-                    fontSize = 35.sp,
-                    modifier =  Modifier
-                        .align(Alignment.CenterHorizontally)
-                )
-                Text(
-                    text = "Gembrunggung",
-                    color = Color.DarkGray,
-                    fontFamily = FontFamily.Cursive,
-                    fontStyle = FontStyle.Italic,
-                    fontSize = 60.sp,
-                    fontWeight = FontWeight.Bold
                 )
             }
         }
